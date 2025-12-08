@@ -11,6 +11,9 @@ Aqui você encontra projetos desenvolvidos para praticar **HTML**, **CSS**, **Ja
 
 | Desafio | Deploy | Repositório |
 |---------|---------|-------------|
+| 👨‍💻 techblog|https://github.com/leiasantos/desafio-techblog-codelab/tree/main|https://desafio-techblog-codelab.vercel.app/|
+| 📝 login|https://github.com/leiasantos/desafio-login-codelab|https://desafio-login-codelab.vercel.app/|
+| 👻 StudioGhibli|https://github.com/leiasantos/desafio-studioghibli-codelab |https://desafio-studioghibli-codelab.vercel.app/|
 | 🍕 LaPizza | https://desafio-la-pizza-codelab.vercel.app/ | https://github.com/leiasantos/desafio-LaPizza-codelab |
 | 🐶 HelpDog | https://desafio-helpdog.vercel.app/ |https://github.com/leiasantos/desafio-helpdog |
 | 🎄 Feliz Natal | https://desafio-feliznatal-codelab.vercel.app/| https://github.com/leiasantos/desafio-Feliznatal-codelab-|
