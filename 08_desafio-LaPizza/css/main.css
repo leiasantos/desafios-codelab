@@ -1,0 +1,301 @@
+/* 🧱 Main Content Container */
+.main-content {
+  width: 100%;
+  height: auto;
+
+}
+
+/* 🍕 Section: Cards (Mais vendidas) */
+.cards-section {
+  width: 100%;
+  height: 74.6rem;
+  background: url('../assets/image/bg-section-desktop.png') center center / cover no-repeat;
+
+}
+
+.card-section {
+  width: 123.7rem;
+  height: 74.6rem;
+  margin: 0 auto;
+  padding: 14.4rem 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* 🏷️ Section Title */
+.card-section-title {
+  font-size: 4rem;
+  font-weight: 600;
+  text-align: center;
+  margin-top: 5rem;
+}
+
+/* 🃏 Pizza Card */
+article.card__pizza {
+  width: 28rem;
+  height: 30rem;
+  padding: 0 3.3rem;
+  background-color: var(--bg-card);
+  border: 0.2rem solid var(--bd-card);
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  border-radius: 1.6rem;
+}
+
+/* 🍕 Pizza Image */
+img#img__pizza {
+  width: 12rem;
+  height: 12rem;
+  align-self: center;
+  position: absolute;
+  top: -5rem;
+  object-fit: cover;
+}
+
+/* ❤️ Favorite Button */
+button#btn__favorite {
+  width: 3.2rem;
+  height: 3.2rem;
+  background-color: #FFD4C9;
+  border: 0.2rem solid #FF3536;
+  border-radius: 0.8rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: -1.6rem;
+  right: 1.6rem;
+}
+
+/* 📝 Pizza Details (inside card) */
+div.details__pizza {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 9.2rem;
+  gap: 1.6rem;
+  text-align: center;
+}
+
+h2.title__pizza {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+p.description__pizza {
+  font-size: 1.6rem;
+  font-weight: 400;
+}
+
+span.price__pizza {
+  font-size: 3.2rem;
+  font-weight: 600;
+}
+
+/* 🏠 Section: About the Place */
+.section-about-place {
+  width: 100%;
+  height: 62.8rem;
+  padding: 6.4rem 0;
+  background-color: var(--bg-footer);
+  display: flex;
+  justify-content: center;
+}
+
+.section-about-place-card {
+  width: 121.6rem;
+  height: 50rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* 🖼️ About Section Image */
+.section-about-place-card img {
+  width: 48.8rem;
+  height: 50rem;
+  object-fit: cover;
+  border-radius: 0.6rem;
+}
+
+/* 📄 About Section Content */
+.section-about-content {
+  width: 59.2rem;
+  height: 28.4rem;
+  display: flex;
+  flex-direction: column;
+  gap: 3.2rem;
+}
+
+.section-about-content .btn__buy {
+  width: 20rem;
+}
+
+/* 🧾 About Section Title */
+.section-about-place-card h3 {
+  font-size: 3.6rem;
+  font-weight: 600;
+}
+
+/* 🌈 Letter Colors in "Pizza" word */
+.span-yellow { color: #FFBD48; }
+.span-red    { color: #FF3536; }
+.span-green  { color: #60BB28; }
+
+/*🖥️ Desktop */
+@media only screen and (max-width: 1024px), only screen and (max-width: 768px) {
+ /* 🍕 Section: Cards */
+  .cards-section {
+    height: 100.6rem;
+    background: url('../assets/image/bg-section-tablet.png') -100% / cover no-repeat;
+    padding: 6.4rem 2.4rem;
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+  }
+
+  .card-section {
+    width: 72rem;
+    height: auto;
+    margin: 0 auto;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 3.2rem;
+    grid-row-gap: 10rem;
+  }
+
+  .card-section-title {
+    font-size: 3.6rem;
+    margin-top: 0;
+  }
+
+  article.card__pizza {
+    width: 32.4rem;
+    height: 30rem;
+    padding: 0 2rem;
+  }
+
+  /* 🏠 Section: About the Place */
+  .section-about-place {
+    height: 84.9rem;
+    padding: 6.4rem 3.2rem;
+  }
+
+  .section-about-place-card {
+    width: 70.4rem;
+    height: 50rem;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .section-about-place-card img {
+    width: 70.4rem;
+    height: 40rem;
+  }
+
+  .section-about-content {
+    width: 70.4rem;
+    height: 25.7rem;
+    margin-top: 5.4rem;
+  }
+
+  .section-about-content .btn__buy {
+    width: 20rem;
+  }
+}
+
+
+/*📱 Mobile  */
+@media only screen and (max-width : 426px){
+    /* 🍕 Section: Cards */
+  .cards-section {
+    height: auto;
+    background: url('../assets/image/bg-main-tablet.png')   top /contain no-repeat;
+    padding: 4.8rem 2.4rem;
+  }
+
+  .card-section {
+    width: 32.7rem;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .card-section-title {
+    font-size: 2.4rem;
+  }
+
+
+  /* 🏠 Section: About the Place */
+  .section-about-place {
+    height: 98.4rem;
+    padding: 6.4rem 2.4rem;
+  }
+
+  .section-about-place-card {
+    width: 32.7rem;
+    height: 39.2rem;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .section-about-place-card img {
+    width: 32.7rem;
+    height: 40rem;
+  }
+
+  .section-about-content {
+    width: 32.7rem;
+
+  }
+}
+
+/*📱 Mobile */
+@media only screen and (max-width : 376px){
+   /* 🍕 Section: Cards */
+  .cards-section {
+    height: auto;
+    background: url('../assets/image/bg-main-tablet.png')   top /contain no-repeat;
+    padding: 4.8rem 2.4rem;
+  }
+
+  .card-section {
+    width: 32.7rem;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .card-section-title {
+    font-size: 2.4rem;
+  }
+
+
+  /* 🏠 Section: About the Place */
+  .section-about-place {
+    height: 98.4rem;
+    padding: 6.4rem 2.4rem;
+  }
+
+  .section-about-place-card {
+    width: 32.7rem;
+    height: 39.2rem;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .section-about-place-card img {
+    width: 32.7rem;
+    height: 40rem;
+  }
+
+  .section-about-content {
+    width: 32.7rem;
+
+  }
+}
+
+
+

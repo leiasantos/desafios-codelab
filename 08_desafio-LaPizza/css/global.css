@@ -1,0 +1,66 @@
+/* 📦 Import Google Font: Inter */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+
+/* 🎨 Root Variables */
+:root {
+  /* 🎨 Background Colors */
+  --bg-header: #ffffff;        
+  --bg-footer: #FEFBF4;
+  --bg-card: #FEFBF4;
+  --bd-card: #FFF5DE;
+
+  --bg-button: #FFBD48;
+
+  /* 📝 Text Colors */
+  --text-base: #000000;
+
+  /* ⚪ Neutral */
+  --color-neutral: #FFFFFF;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+html,
+body {
+  height: 100vh;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* 🖋️ Global Typography */
+body {
+  font-size: 1.6rem; /* 16px */
+  font-family: "Inter", sans-serif;
+  color: var(--text-base);
+}
+
+/* Button */
+.btn__buy {
+  width: 100%;
+  height: 4.1rem;
+  padding: 1.2rem 4rem;
+  font-size: 1.4rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  background-color: var(--bg-button);
+  border-radius: 2.5rem;
+  color: var(--text-base);
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  margin-top: 2rem;
+}
+
+/* ❤️ Favorite icon button */
+.favorite {
+  width: 3.2rem;
+  height: 3.2rem;
+  object-fit: cover;
+}
+
+/* Flex Column Utility */
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}

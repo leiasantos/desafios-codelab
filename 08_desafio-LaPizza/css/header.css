@@ -1,0 +1,60 @@
+/*  Main Header Section */
+.main-header {
+  width: 100%;
+  height: 60rem;
+
+  /* 🖼️ Background image shorthand */
+  background: url('../assets/image/bg-desktop.png') center center / cover no-repeat;
+
+  /*  Center content */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*  Logo inside Header */
+.main-header-logo {
+  width: 59.6rem;
+  height: 39.4rem;
+  object-fit: cover;
+}
+
+/* 📱 Tablet & Mobile */
+@media only screen and (max-width: 768px) {
+  .main-header {
+    height: 40rem;
+
+    /* 🖼️ Background image for tablet */
+    background: url('../assets/image/bg-tablet.png') 10% 10% / cover no-repeat;
+  }
+
+  .main-header-logo {
+    width: 30rem;
+    height: 19.8rem;
+  }
+}
+
+/* 📱 Mobile */
+@media only screen and (max-width: 426px) {
+  .main-header {
+    height: 30rem;
+
+    /* 🖼️ Background image shorthand */
+    background: url('../assets/image/bg-mobile.png') center / cover no-repeat;
+  }
+
+  .main-header-logo {
+    width: 21.6rem;
+    height: 14.3rem;
+    object-fit: cover;
+  }
+}
+
+/* 📱 Mobile */
+@media only screen and (max-width: 376px){
+  .main-header {
+    /* 🖼️ Background image shorthand */
+    background: url('../assets/image/bg-mobile.png') center  / cover no-repeat;
+  }
+
+}

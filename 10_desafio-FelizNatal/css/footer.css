@@ -1,0 +1,68 @@
+/* 🦶 MAIN FOOTER - Footer wrapper */
+#main-footer {
+  width: 100%;
+  padding: 4.8rem 2.4rem;
+  background: var(--bg-footer);
+}
+
+/* 📦 FOOTER CONTAINER - Centers logo and navigation */
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3.2rem;
+}
+
+/* 🖼️ FOOTER LOGO - Brand identity */
+.footer-logo {
+  display: block;
+  width: 16rem;
+  object-fit: cover;
+}
+
+/* 🌐 FOOTER NAVIGATION - Social media links container */
+.footer-nav ul {
+  display: flex;
+  gap: 3.2rem;
+}
+
+/* 🔗 SOCIAL LINK BUTTON - Round clickable area */
+.footer-social-list a {
+  width: 4rem;
+  height: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background-color: var(--bg-social-link);
+  transition: background 0.3s ease;
+}
+
+/* 🖼️ SOCIAL ICON IMAGE - Fits inside button */
+.footer-social-list img {
+  width: 3rem;
+  height: 3rem;
+  object-fit: cover;
+}
+
+
+/*🖥️ Desktop */
+@media only screen and (min-width: 1440px) {
+  /* 🦶 MAIN FOOTER - Footer wrapper */
+#main-footer {
+  padding: 2rem ;
+}
+
+/* 📦 FOOTER CONTAINER - Centers logo and navigation */
+.footer-container {
+  max-width: 121.6rem;
+  margin: 0 auto;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.footer-nav ul {
+  gap: 3.6rem;
+}
+}
+

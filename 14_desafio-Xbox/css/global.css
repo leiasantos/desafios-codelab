@@ -1,0 +1,59 @@
+/* 🌐 Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+
+/* 🎨 Root Variables */
+:root {
+  /* Background colors */
+  --bg-button: #9BF00B;
+  --bg-line: #2E2E2E;
+  --bg-social-link: #67676763;
+
+  /* Text colors */
+  --text-base: #FFFFFF;
+  --text-title: #0C0C0C;
+  --text-accent: #9BF00B;
+}
+
+/* 🔤 Base Setup */
+html {
+  font-size: 62.5%; /* 1rem = 10px */
+}
+
+html,
+body {
+  height: 100vh;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: "Inter", sans-serif;
+  background: linear-gradient(to bottom, #0D100C, #0D100B, #0D100C);
+  color: var(--text-base);
+}
+
+/* 🔘 Buttons */
+.btn {
+  background-color: var(--bg-button);
+  color: var(--text-title);
+  width: 100%;
+  padding: 1.2rem 1.6rem;
+  border: none;
+  font-size: 1.2rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background 0.3s;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+/* 🧩 Utilities */
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+a {
+  display: inline-block;
+}

@@ -1,0 +1,117 @@
+/* 🧭 Hero Section */
+.hero {
+  width: 100%;
+  background-color: var(--blue);
+  padding: 8rem 3.2rem;
+}
+
+
+/* 🧩 Hero Content */
+.hero__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 4.8rem;
+}
+
+.hero__content h1 {
+  font-size: 3rem;
+  font-weight: 400;
+  line-height: 1.2;
+}
+
+.hero__content p {
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.4;
+}
+
+
+/* 🎨 Hero Images */
+.hero__logo {
+  max-width: 17.5rem;
+  display: block;
+  object-fit: cover;
+}
+
+.hero__visual {
+  display: none;
+}
+
+
+/* 📱 Tablet */
+@media (min-width: 768px) {
+  .hero {
+    padding: 8rem 18.1rem;
+  }
+
+  .hero__content {
+    gap: 5rem;
+  }
+
+  .hero__content h1 {
+    font-size: 3.6rem;
+  }
+
+  .hero__content p {
+    font-size: 1.8rem;
+  }
+
+  .hero__button {
+    max-width: 22rem;
+    font-size: 1.8rem;
+  }
+}
+
+
+/* 🖥️ Desktop Medium */
+@media (min-width: 1024px) {
+  .hero__content h1 {
+    font-size: 4.8rem;
+  }
+
+  .hero__content p {
+    font-size: 2rem;
+  }
+}
+
+
+/* 🖥️ Desktop Large (1440px) */
+@media (min-width: 1440px) {
+  .hero {
+    padding: 0;
+  }
+
+  .hero__container {
+    max-width: 130rem;
+    display: flex;
+    justify-content: space-between;
+    margin-left: auto;
+  }
+
+  .hero__content {
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+    margin-top: 5rem;
+    max-width: 46rem;
+  }
+
+  .hero__visual {
+    display: block;
+    position: relative;
+  }
+
+  .decor {
+    max-width: 80rem;
+  }
+
+  .hero__dog {
+    position: absolute;
+    top: 10%;
+    right: 16%;
+    max-width: 65rem;
+    z-index: 10;
+  }
+}

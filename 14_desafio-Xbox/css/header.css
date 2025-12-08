@@ -1,0 +1,97 @@
+/* Main Header */
+#main-header {
+  width: 100%;
+  padding: 2.4rem;
+}
+
+/* Header Container */
+.header-container {
+  max-width: 32rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2.4rem;
+}
+
+/* Header Logo */
+.header-logo {
+  max-width: 7rem;
+}
+
+/* Navigation */
+.header-nav ul {
+  display: flex;
+  gap: 2.8rem;
+}
+
+.nav-item a {
+  border-radius: 5rem;
+  background: var(--bg-social-link);
+  padding: 0.6rem 1rem;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+/* 📱 Tablet Small */
+@media (min-width: 425px) {
+  .header-container {
+    max-width: 38rem;
+  }
+}
+
+/* 📱 Tablet Large */
+@media (min-width: 768px) {
+  #main-header {
+    padding: 2.4rem 3.2rem;
+  }
+
+  .header-container {
+    max-width: 76.8rem;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 4.8rem;
+  }
+
+  .header-cta {
+    max-width: 19.6rem;
+  }
+}
+
+/* 🖥️ Desktop Medium */
+@media (min-width: 1024px) {
+  .header-container {
+    max-width: 100rem;
+  }
+
+  .nav-item a {
+    font-size: 1rem;
+  }
+}
+
+/* 🖥️ Desktop Large */
+@media (min-width: 1440px) {
+  .header-container {
+    max-width: 121.6rem;
+    margin: 0 auto;
+  }
+
+  .header-logo {
+    max-width: 11.2rem;
+  }
+
+  .nav-item a {
+    border-radius: 0;
+    background: transparent;
+    font-size: 1.4rem;
+  }
+
+
+  .nav-list .nav-item:first-child .nav-link {
+    border-radius: 5rem;
+    background: var(--bg-social-link);
+  }
+}
+

@@ -1,0 +1,57 @@
+/* 🌐 Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&display=swap");
+
+/* 🎨 Root Variables */
+:root {
+  /* Background colors */
+  --bg-header: #FFE9E8;
+  --bg-main: #FFFFFF;
+  --bg-footer: #FFE9E8;
+  --bg-button: #CD3C32;
+
+  /* Text colors */
+  --text-base: #121214;
+  --text-accent: #CD3C32;
+  --text-neutral: #FFFFFF;
+
+  /* Social links */
+  --bg-social-link: #FFD5D3;
+}
+
+/* 🔤 Base Setup */
+html {
+  font-size: 62.5%; /* 1rem = 10px */
+}
+
+html,
+body {
+  height: 100vh;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  font-size: 1.6rem; /*16px*/
+  font-family: "Archivo", sans-serif;
+  color: var(--text-base);
+}
+
+.flex-column{
+  display: flex;
+  flex-direction: column;
+}
+
+/* 🔘 Buttons */
+button {
+  background-color: var(--bg-button);
+  color: var(--text-neutral);
+  width: 100%;
+  padding: 1.4rem 3.2rem;
+  border: none;
+  border-radius: 0.4rem;
+  font-size: 1.6rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background 0.3s;
+  text-transform: uppercase;
+}

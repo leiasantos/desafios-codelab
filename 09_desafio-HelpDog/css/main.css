@@ -1,0 +1,174 @@
+/* 🧭 Main Content */
+.main-content {
+  width: 100%;
+}
+
+/* 💬 Quote Section */
+.quote-section {
+  padding: 8rem 0;
+  background-color: var(--bg-section);
+}
+
+.section-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8rem;
+}
+
+.quote-section img {
+  max-width: 100%;
+  display: block;
+  object-fit: cover;
+}
+
+.quote-section__text {
+  padding: 0 3.2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3.2rem;
+  text-align: center;
+}
+
+.quote-section__text h2 {
+  font-size: 2.4rem;
+  font-weight: 400;
+  line-height: 1.4;
+}
+
+.quote-section__text p {
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.4;
+}
+
+/* 🛍️ Products Section */
+.products-section {
+  padding: 8rem 3.2rem;
+}
+
+.products-section__container {
+  display: flex;
+  flex-direction: column;
+  gap: 8rem;
+}
+
+.product-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4rem;
+}
+
+.product-card__image {
+  max-width: 30rem;
+  object-fit: cover;
+  display: block;
+}
+
+.product-card__content {
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+}
+
+.product-card__content h3 {
+  font-size: 2.4rem;
+  font-weight: 400;
+  line-height: 1.1;
+}
+
+.product-card__content p {
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.4;
+}
+
+.product-card__content button {
+  max-width: 100%;
+}
+
+/* 📱 Tablet */
+@media (min-width: 768px) {
+
+  .quote-section__text {
+    max-width: 59.2rem;
+    gap: 4.8rem;
+  }
+
+  .quote-section__text h2 {
+    font-size: 3.2rem;
+  }
+
+  .quote-section__text p {
+    font-size: 2rem;
+  }
+
+  .product-card__image {
+    max-width: 33rem;
+  }
+
+  .product-card__content {
+    max-width: 38.2rem;
+    gap: 4rem;
+  }
+
+  .product-card__content h3 {
+    font-size: 3.2rem;
+  }
+
+  .product-card__content p {
+    font-size: 2.2rem;
+  }
+
+  .product-card__content button {
+    max-width: 100%;
+  }
+}
+
+/* 🖥️ Desktop 1440px */
+@media (min-width: 1440px) {
+
+  .section-container {
+    max-width: 138rem;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 2.7rem;
+    text-align: left;
+  }
+
+  .quote-section__text {
+    align-items: flex-start;
+    text-align: left;
+    padding: 0;
+  }
+
+  .quote-section__text p {
+    font-size: 2.4rem;
+  }
+
+  .products-section {
+    padding: 8rem 1rem;
+  }
+
+  .products-section__container {
+    max-width: 121.6rem;
+    margin: 0 auto;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 3.2rem;
+  }
+
+  .product-card {
+    gap: 4.7rem;
+  }
+
+  .product-card__content h3 {
+    font-size: 3.4rem;
+  }
+
+  .product-card__content p {
+    font-size: 2.4rem;
+  }
+}

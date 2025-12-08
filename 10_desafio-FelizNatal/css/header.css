@@ -1,0 +1,115 @@
+/* HEADER SECTION */
+#main-header {
+  width: 100%;
+  background: var(--bg-header);
+  padding: 9.6rem 2.4rem;
+}
+
+/*  HEADER CONTAINER */
+.header-container {
+  gap: 6.4rem;
+}
+
+/*  HEADER CONTENT - Aligns logo, text and button */
+.header-content {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 4rem;
+}
+
+/* LOGO */
+.header-logo {
+  width: 16rem;
+  object-fit: cover;
+}
+
+/*  TEXT BOX  */
+.header-text-box {
+  gap: 2.4rem;
+}
+
+/*  HEADER TITLE */
+.header-text-box h1 {
+  font-size: 3.2rem;
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+/* TITLE HIGHLIGHT */
+.header-text-box span {
+  color: var(--text-accent);
+}
+
+/* 📝 PARAGRAPH */
+.header-text-box p {
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+/*  HEADER IMAGE */
+.header-image {
+  display: block;
+  max-width: 100%;
+  object-fit: cover;
+}
+
+
+/*📱 Tablet */
+@media only screen and (min-width : 768px){
+#main-header {
+  padding: 9.6rem 3.2rem;
+}
+
+.header-container {
+  max-width: 59rem;
+  margin: 0 auto;
+  align-items: center;
+}
+
+.header-text-box h1 {
+  font-size: 4rem;
+}
+
+.header-text-box p {
+  font-size: 2.4rem;
+}
+
+.header-image {
+  max-width: 50rem;
+}
+
+.header-button{
+  max-width: 23.8rem;
+}
+}
+
+
+/*🖥️ Desktop */
+@media only screen and (min-width: 1440px) {
+#main-header {
+  padding: 10.4rem 0rem;
+}
+.header-container {
+  max-width: 121.6rem;
+  display: flex;
+  flex-direction:row;
+  gap: 6.4rem;
+}
+
+.header-content {
+  align-items:flex-start;
+  text-align: left;
+}
+
+.header-text-box h1 {
+  font-size: 4rem;
+}
+
+.header-text-box p {
+  font-size: 2.4rem;
+}
+
+}
+

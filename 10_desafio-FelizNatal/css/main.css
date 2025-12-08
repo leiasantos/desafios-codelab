@@ -1,0 +1,156 @@
+/* MAIN CONTENT */
+#main-content {
+  width: 100%;
+}
+
+/* COUNTDOWN SECTION*/
+#countdown-section {
+  gap: 2.4rem;
+  padding: 8rem 2.4rem;
+  border-bottom: 0.1rem solid #CD3C3233;
+}
+
+/* COUNTDOWN TEXT BOX */
+.countdown-text-box {
+  gap: 1.6rem;
+  text-align: center;
+}
+
+/* SHARED TEXT STYLES  */
+.title {
+  font-size: 3.2rem;
+  font-weight: 600;
+}
+
+.description {
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+/* ⏳ COUNTDOWN TIMER */
+.countdown-timer {
+  color: var(--text-accent);
+  text-align: center;
+  font-size: 3.2rem;
+  font-weight: 600;
+}
+
+/* 🖼️ COUNTDOWN IMAGE */
+.countdown-image {
+  display: block;
+  max-width: 100%;
+  object-fit: cover;
+}
+
+/* DONATION SECTION  */
+#donation-section {
+  align-items: center;
+  gap: 2.4rem;
+  padding: 8rem 2.4rem;
+}
+
+/* DONATION IMAGE */
+.donation-image {
+  display: block;
+  width: 21rem;
+  object-fit: cover;
+}
+
+/*  DONATION TEXT BOX */
+.donation-text-box {
+  gap: 4rem;
+  text-align: center;
+}
+
+
+/*📱 Tablet */
+@media only screen and (min-width : 768px){
+#countdown-section {
+  gap: 4rem;
+  padding: 8rem 8.2rem;
+  align-items: center;
+  border-bottom: 0.1rem solid #CD3C3233;
+}
+
+.countdown-text-box {
+  max-width: 47.7rem;
+  gap: 2.4rem;
+}
+
+.title {
+  font-size: 4rem;
+}
+.description {
+  font-size: 2rem;
+}
+
+.countdown-timer {
+  font-size: 6.4rem;
+}
+
+
+/*  DONATION SECTION */
+#donation-section {
+  gap: 4.8rem;
+  padding: 8rem 8.2rem;
+}
+
+/*  DONATION IMAGE  */
+.donation-image {
+  width: 40.8rem;
+}
+
+/* DONATION TEXT BOX  */
+.donation-text-box {
+  max-width: 60.2rem;
+  align-items: center;
+}
+.donation-button{
+  max-width: 23.8rem;
+}
+}
+
+/*🖥️ Desktop */
+@media only screen and (min-width: 1440px) {
+#countdown-section {
+  max-width: 121.6rem;
+  margin: 0 auto;
+  gap: 4rem;
+  border-bottom: none;
+}
+
+.title {
+  font-size: 4.2rem;
+}
+
+.countdown-timer {
+  font-size: 6.8rem;
+}
+
+#donation-section {
+  max-width: 121.6rem;
+  margin: 0 auto;
+
+
+  flex-direction:row;
+  justify-content: space-between;
+  padding: 8rem 0;
+}
+
+.donation-image {
+  width: 38rem;
+}
+
+.donation-text-box {
+  align-items: flex-start;
+  gap: 4rem;
+  text-align:left;
+}
+
+.donation-text-box p{
+  font-size: 2.4rem;
+}
+
+}
+
