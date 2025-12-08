@@ -8,12 +8,13 @@ Aqui você encontra projetos desenvolvidos para praticar **HTML**, **CSS**, **Ja
 ---
 ## 📌 Projetos
 
-| Status | Desafio | Deploy | Repositório |
-|--------|---------|---------|-------------|
-| ✔️ Concluído | 🍕 LaPizza | https://desafio-la-pizza-codelab.vercel.app/ | https://github.com/leiasantos/desafio-LaPizza-codelab |
-| ✔️ Concluído | 🐶 HelpDog | _adicionar deploy_ | ./desafio-HelpDog |
-| ✔️ Concluído | 🎄 Feliz Natal | _adicionar deploy_ | ./desafio-FelizNatal |
-| ✔️ Concluído | 🎮 Xbox | _adicionar deploy_ | ./desafio-Xbox |
+
+| Desafio | Deploy | Repositório |
+|---------|---------|-------------|
+| 🍕 LaPizza | https://desafio-la-pizza-codelab.vercel.app/ | https://github.com/leiasantos/desafio-LaPizza-codelab |
+| 🐶 HelpDog | _adicionar deploy_ | ./desafio-HelpDog |
+| 🎄 Feliz Natal | _adicionar deploy_ | ./desafio-FelizNatal |
+| 🎮 Xbox | _adicionar deploy_ | ./desafio-Xbox |
 
 ---
 ## 🚀 Tecnologias Utilizadas
