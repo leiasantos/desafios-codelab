@@ -12,7 +12,7 @@ Aqui você encontra projetos desenvolvidos para praticar **HTML**, **CSS**, **Ja
 | Desafio | Deploy | Repositório |
 |---------|---------|-------------|
 | 🍕 LaPizza | https://desafio-la-pizza-codelab.vercel.app/ | https://github.com/leiasantos/desafio-LaPizza-codelab |
-| 🐶 HelpDog | _adicionar deploy_ | ./desafio-HelpDog |
+| 🐶 HelpDog | https://desafio-helpdog.vercel.app/ |https://github.com/leiasantos/desafio-helpdog |
 | 🎄 Feliz Natal | _adicionar deploy_ | ./desafio-FelizNatal |
 | 🎮 Xbox | _adicionar deploy_ | ./desafio-Xbox |
 
