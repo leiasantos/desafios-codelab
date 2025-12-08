@@ -1,0 +1,64 @@
+/* 🌐 Import Google Font */
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap");
+
+
+/* 🎨 Theme Variables */
+:root {
+  /* Background colors */
+  --bg-footer: #111826;
+  --bg-button: #EC1F1D;
+
+  /* Text colors */
+  --text-base: #FFFFFF;
+  --text-accent: #EC1F1D;
+}
+
+
+/* 📏 Base Font Size (10px = 1rem) */
+html {
+  font-size: 62.5%;
+}
+
+/* 🧼 Global Reset Enhancements */
+html,
+body {
+  height: 100vh;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* 🪶 Body Styles */
+body {
+  font-size: 1.6rem;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  color: var(--text-base);
+
+  background:
+    linear-gradient(to bottom, #1A2841, #0B1322, #080A0E),
+    url('../assets/image/spider-man.png') 100% 100% / cover no-repeat;
+}
+
+
+/* 🔘 Button Component */
+button {
+  width: 21.4rem;
+  padding: 1.2rem 3.2rem;
+
+  background-color: var(--bg-button);
+  border: none;
+  border-radius: 0.8rem;
+
+  font-size: 1.4rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  cursor: pointer;
+
+  transition: background 0.3s ease;
+}
+
+
+/* 📚 Utility Class: Flex Column */
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}

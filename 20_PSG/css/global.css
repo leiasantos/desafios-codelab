@@ -1,0 +1,55 @@
+/* 🌐 Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap");
+
+/* 🎨 Root Variables */
+:root {
+  /* Background colors */
+  --bg-main: #FFFFFF;
+  --bg-footer: #0C1324;
+  --bg-line: #FF1541;
+  --bg-btn: #FF1541;
+
+  /* Text colors */
+  --text-base: #FFFFFF;
+  --text-title: #0C1324;
+  --text-accent: #FF1541;
+}
+
+/* 🔤 Base Setup */
+html {
+  font-size: 62.5%; /* 1rem = 10px */
+}
+
+html,
+body {
+  height: 100vh;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  font-size: 1.6rem; /* 16px */
+  font-family: "Plus Jakarta Sans", sans-serif;
+  color: var(--text-base);
+}
+
+/* 🧩 Utilities */
+.flex-col {
+  display: flex;
+  flex-direction: column;
+}
+
+/* 🔘 Buttons */
+.btn {
+  background-color: var(--bg-btn);
+  color: var(--text-base);
+  width: 20rem;
+  padding: 1.6rem 3.2rem;
+  border: none;
+  font-size: 1.8rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.3s;
+  text-transform: uppercase;
+  display: block;
+}

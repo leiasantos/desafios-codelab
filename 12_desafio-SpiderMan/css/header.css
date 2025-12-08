@@ -1,0 +1,104 @@
+/* 🌟 Header Section — Main wrapper */
+#main-header {
+  width: 100%;
+  height: 8rem;
+  padding: 0 2.4rem;
+  display: flex;
+}
+
+/* 🧱 Header Layout — Flex container */
+.header__container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* 🖼️ Logo image */
+.header__logo {
+  max-width: 2.4rem;
+  display: block;
+  object-fit: cover;
+}
+
+/* 📂 Navigation container */
+.header__nav ul {
+  display: flex;
+  gap: 2.4rem;
+}
+
+/* 🔗 Navigation links */
+.nav__item a {
+  display: block;
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.2;
+  text-decoration: none;
+  color: inherit;
+}
+
+.nav__item a:hover{
+  color: var(--text-accent);
+}
+.image-red {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.image-red img {
+  display: block;
+  transition: .3s ease;
+}
+
+/* quando passar o mouse */
+.image-red:hover img {
+  filter: brightness(0) saturate(100%) invert(18%) sepia(83%)
+          saturate(7450%) hue-rotate(0deg) contrast(120%);
+}
+
+
+
+/* 📱 Tablet (min-width: 768px) */
+@media (min-width: 768px) {
+
+  /* 👉 More comfortable horizontal padding */
+  #main-header {
+    padding: 0 3.2rem;
+  }
+
+  /* 👉 Increase spacing between nav items */
+  .header__nav ul {
+    gap: 6.4rem;
+  }
+
+  /* 👉 Font size adjusted for medium screens */
+  .nav__item a {
+    font-size: 1.6rem;
+  }
+}
+
+@media (min-width: 1024px){
+  .header__container {
+    max-width: 85rem;
+     margin: 0 auto;
+  }
+}
+
+/* 🖥️ Desktop (min-width: 1440px)*/
+@media (min-width: 1440px) {
+  .header__container {
+    max-width: 119.6rem;
+  
+  }
+
+  /* 🖼️ Larger logo for desktop */
+  .header__logo {
+    max-width: 4rem;
+  }
+
+  /* 🔗 Desktop-friendly text size */
+  .nav__item a {
+    font-size: 1.8rem;
+  }
+}

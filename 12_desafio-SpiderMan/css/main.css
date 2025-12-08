@@ -1,0 +1,112 @@
+/* 🌟 Main Content Section */
+#main-content {
+  width: 100%;
+  padding: 6.4rem 2.4rem;
+  gap: 4rem;
+}
+
+/* 🎬 Hero Image */
+.hero__image {
+  max-width: 100%;
+  display: block;
+  object-fit: cover;
+}
+
+/* 🍿 Movie Section */
+.movie-section {
+  align-items: center;
+  gap: 3.2rem;
+  text-align: center;
+}
+
+.movie__logo {
+  max-width: 18rem;
+  display: block;
+  object-fit: cover;
+}
+
+/* ✏️ Movie Description */
+.movie-section p {
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+/* 🔥 Button Hover Effect */
+button:hover {
+  background: #d01815;
+}
+
+/* 📱 Tablet – 768px */
+@media only screen and (min-width: 768px) {
+
+  #main-content {
+    padding: 6.4rem 0 6.4rem 3.2rem;
+    flex-direction: row-reverse;
+    align-items: center;
+    gap: 4rem;
+  }
+
+  .hero__image {
+    max-width: 42rem;
+  }
+
+  .movie-section {
+    max-width: 35rem;
+    align-items: flex-start;
+    text-align: left;
+  }
+
+  .movie__logo {
+    max-width: 9.8rem;
+  }
+
+  .movie-section p {
+    font-size: 1.2rem;
+  }
+}
+
+/* 🖥️ Desktop – 1024px */
+@media only screen and (min-width: 1024px) {
+
+  #main-content {
+    justify-content: space-around;
+  }
+
+  .movie__logo {
+    max-width: 10rem;
+  }
+
+  .movie-section p {
+    font-size: 1.6rem;
+  }
+}
+
+/* 🖥️ Large Desktop – 1440px */
+@media only screen and (min-width: 1440px) {
+
+  #main-content {
+    position: relative;
+    overflow-x: hidden;
+  }
+
+  .hero-section {
+    position: absolute;
+    right: -1rem;
+  }
+
+  .hero__image {
+    max-width: 50rem;
+  }
+
+  .movie-section {
+    max-width: 60rem;
+    align-items: center;
+    text-align: center;
+    margin-right: 10rem;
+  }
+
+  .movie-section p {
+    font-size: 1.8rem;
+  }
+}

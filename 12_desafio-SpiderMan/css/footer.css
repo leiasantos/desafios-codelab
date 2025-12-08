@@ -1,0 +1,83 @@
+/* 🌙 Main Footer Section */
+#main-footer {
+  width: 100%;
+  background: var(--bg-footer);
+  padding: 6.4rem 2.4rem;
+}
+
+/* 🧩 Footer Cards Wrapper */
+.footer__cards {
+  align-items: center;
+  gap: 3.2rem;
+  text-align: center;
+}
+
+/* 🃏 Individual Footer Card */
+.footer-card {
+  max-width: 32rem;
+  gap: 1.6rem;
+}
+
+/* 🔠 Card Title */
+.footer-card h2 {
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 1.1;
+}
+
+/* ✏️ Card Text */
+.footer-card p {
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.2;
+}
+
+/* 📱 Tablet — 768px */
+@media only screen and (min-width: 768px) {
+
+  #main-footer {
+    padding: 4.8rem 3.2rem;
+  }
+
+  .footer__cards {
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: left;
+  }
+
+  .footer-card {
+    max-width: 20.5rem;
+    gap: 1.6rem;
+  }
+
+  .footer-card h2 {
+    font-size: 1.8rem;
+  }
+
+  .footer-card p {
+    font-size: 1.2rem;
+  }
+}
+
+/* 🖥️ Desktop – 1024px */
+@media only screen and (min-width: 1024px){
+    .footer__cards {
+    max-width: 85rem;
+    margin: 0 auto;
+  }
+}
+
+/* 🖥️ Desktop — 1440px */
+@media only screen and (min-width: 1440px) {
+
+  #main-footer {
+    padding: 3.2rem 0;
+  }
+
+  .footer__cards {
+    max-width: 121.6rem;
+    margin: 0 auto;
+    text-align: center; 
+    justify-content: space-around;
+  }
+}

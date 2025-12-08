@@ -1,0 +1,134 @@
+/* Header Section */
+.header {
+  width: 100%;
+  height: 60rem;
+  background: 
+    linear-gradient(to left, #0C132433 50%, #0C132433 50%),
+    url('../assets/image/bg-mobile.svg') no-repeat top center / cover;
+  padding: 12.7rem 2.6rem;
+}
+
+/*  Header Top (Hidden Mobile) */
+.header__top {
+  display: none;
+}
+
+/* 📝 Header Content */
+.header__content {
+  display: flex;
+  flex-direction: column;
+  gap: 4.8rem;
+  color: var(--text-base);
+}
+
+.header-description {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+
+.header__title {
+  font-size: 2.4rem;
+  font-weight: 600;
+  line-height: 1.1;
+  cursor: pointer;
+}
+
+.header__title:hover {
+  color: var(--text-accent);
+}
+
+.header__description {
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 1.6;
+}
+
+/* 📱 Tablet */
+@media (min-width: 768px) {
+  .header {
+    background: 
+      linear-gradient(to left, #0C132433 50%, #0C132433 50%),
+      url('../assets/image/bg-tablet.svg') no-repeat top center / cover;
+    padding: 9.7rem 7.6rem;
+  }
+
+  .header__content {
+    gap: 4.8rem;
+  }
+
+  .header-description {
+    gap: 4rem;
+  }
+
+  .header__title {
+    font-size: 4.8rem;
+  }
+
+  .header__description {
+    font-size: 2.4rem;
+  }
+}
+
+/* 🖥️ Desktop */
+@media (min-width: 1440px) {
+  .header {
+    height: 80rem;
+    background: 
+      linear-gradient(to left, #0C132433 50%, #0C132433 50%),
+      url('../assets/image/bg-desktop.svg') no-repeat top center / cover;
+    padding: 2.4rem 0;
+  }
+
+  .header__top {
+    display: flex;
+    max-width: 121.6rem;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .header__logo {
+    max-width: 5rem;
+    object-fit: contain;
+  }
+
+  .header__nav ul {
+    display: flex;
+    gap: 4.8rem;
+  }
+
+  .header__link {
+    font-size: 1.8rem;
+    font-weight: 600;
+    line-height: 1.1;
+    display: block;
+    text-transform: uppercase;
+  }
+
+  .header__link:hover {
+    color: var(--text-accent);
+  }
+
+  .header__content {
+    max-width: 59.2rem;
+    margin-left: 16rem;
+    margin-top: 14.5rem;
+  }
+
+  .header__content img {
+    display: none;
+  }
+
+  .header-description {
+    gap: 3.2rem;
+  }
+
+  .header__title {
+    font-size: 6.4rem;
+  }
+
+  .header__description {
+    font-size: 2.4rem;
+  }
+}

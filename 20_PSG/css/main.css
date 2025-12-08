@@ -1,0 +1,284 @@
+/*  Main Section */
+.main {
+  width: 100%;
+}
+
+/* Section */
+.score {
+  padding: 6.4rem 2.4rem;
+}
+
+.score__container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 2.4rem;
+}
+
+.score__team {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+}
+
+.score__logo {
+  max-width: 3.2rem;
+  object-fit: cover;
+}
+
+.score__result {
+  color: var(--text-accent);
+}
+
+.score__number,
+.score__dash {
+  font-size: 2.4rem;
+  font-weight: 600;
+  line-height: 1.1;
+}
+
+.score__dash {
+  color: #FF154180;
+}
+
+.score__name {
+  font-size: 1.2rem;
+  font-weight: 600;
+  line-height: 1.1;
+  color: var(--text-title);
+}
+
+/* 📢 Section*/
+.notice {
+  background: url('../assets/image/wallapaper2-mobile.svg') center / cover no-repeat;
+  height: 60rem;
+  padding: 6.4rem 2.4rem;
+}
+
+.notice__card {
+  background: var(--bg-main);
+  color: var(--text-title);
+  padding: 3.2rem 2.4rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+}
+
+.notice__bar {
+  border-left: 0.3rem solid var(--bg-line);
+  padding-left: 10px;
+}
+
+.notice__title {
+  font-size: 1.6rem;
+  font-weight: 600;
+  line-height: 1.1;
+}
+
+.notice__text {
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.6;
+}
+
+.notice__link {
+  font-size: 1.4rem;
+  font-weight: 600;
+  line-height: 1.1;
+  text-transform: uppercase;
+  color: var(--text-accent);
+}
+
+/* 📰 Section */
+.news-section {
+  padding: 6.4rem 3.2rem;
+  color: var(--text-title);
+}
+
+.news-container {
+  display: flex;
+  flex-direction: column;
+  gap: 6.4rem;
+}
+
+.announcement {
+  font-size: 2.4rem;
+  font-weight: 600;
+  line-height: 1.1;
+}
+
+.news-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 6.4rem;
+}
+
+.news-card {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+
+.news-card-info {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+
+.news-title {
+  font-size: 1.8rem;
+  font-weight: 500;
+  line-height: 1.1;
+}
+
+.category {
+  display: flex;
+  justify-content: space-between;
+}
+
+.news-category {
+  font-size: 1.2rem;
+  font-weight: 600;
+  line-height: 1.1;
+  color: var(--text-accent);
+}
+
+.news-date {
+  font-size: 1.2rem;
+  font-weight: 600;
+  line-height: 1.1;
+}
+
+.load-more-button {
+  margin: 0 auto;
+}
+
+.load-more {
+  font-size: 1.4rem;   
+}
+
+.news-card img {
+  object-fit: cover;
+  display: block;
+}
+
+/* 📱 Tablet */
+@media (min-width: 768px) {
+  .score {
+    padding: 8rem 3.2rem;
+  }
+  .score__container {
+    gap: 3.2rem;
+  }
+  .score__team {
+    gap: 3rem;
+  }
+  .score__logo {
+    max-width: 6.4rem;
+  }
+  .score__name {
+    font-size: 2.4rem;
+  }
+  .score__number,
+  .score__dash {
+    font-size: 3.6rem;
+  }
+
+  .notice {
+    background: url('../assets/image/wallapaper2 -tablet.svg') center / cover no-repeat;
+    height: 80rem;
+    padding: 18rem 3.2rem;
+  }
+  .notice__card {
+    padding: 4rem;
+    gap: 3.2rem;
+  }
+  .notice__title {
+    font-size: 2.4rem;
+  }
+  .notice__text {
+    font-size: 1.6rem;
+  }
+  .notice__link {
+    font-size: 1.8rem;
+  }
+
+  .announcement {
+    font-size: 3rem;
+  }
+  .news-grid article:nth-child(1) img {
+    content: url("../assets/image/desktop-1.png");
+  }
+  .news-grid article:nth-child(2) img {
+    content: url("../assets/image/desktop-2.png");
+  }
+  .news-grid article:nth-child(3) img {
+    content: url("../assets/image/desktop-3..png");
+  }
+  .news-title {
+    font-size: 2rem;
+  }
+  .news-category {
+    font-size: 1.4rem;
+  }
+  .news-date {
+    font-size: 1.4rem;
+  }
+  .load-more {
+    width: 22rem;   
+    font-size: 1.8rem;   
+  }
+}
+
+/* 🖥️ Desktop */
+@media (min-width: 1440px) {
+  .score {
+    padding: 12.8rem 0rem;
+  }
+  .score__container {
+    max-width: 80rem;
+    margin: 0 auto;
+  }
+  .score__logo {
+    max-width: 13rem;
+  }
+  .score__name {
+    font-size: 3.2rem;
+  }
+  .score__number,
+  .score__dash {
+    font-size: 6.4rem;
+  }
+
+  .notice {
+    background: url('../assets/image/wallpaper2-desktop.png') center / cover no-repeat;
+  }
+  .notice__card {
+    max-width: 94rem;
+    margin: 0 auto;
+    gap: 2.5rem;
+  }
+  .notice__title {
+    font-size: 3.2rem;
+  }
+  .notice__text {
+    font-size: 2rem;
+  }
+
+  .news-container {
+    max-width: 121.6rem;
+    margin: 0 auto;
+  }
+  .announcement {
+    font-size: 3.2rem;
+  }
+  .news-grid {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+  }
+  .news-card img {
+    height: 25.4rem;
+  }
+}
+
