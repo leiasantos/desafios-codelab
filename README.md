@@ -19,6 +19,7 @@ Aqui você encontra projetos desenvolvidos para praticar **HTML**, **CSS**, **Ja
 | 🎄 Feliz Natal | https://desafio-feliznatal-codelab.vercel.app/| https://github.com/leiasantos/desafio-Feliznatal-codelab-|
 | 🕷  Spiderman|https://desafio-spiderman-codelab.vercel.app/|https://github.com/leiasantos/desafio-spiderman-codelab|
 | 🎮 Xbox |https://desafio-xbox-codelab.vercel.app/ | https://github.com/leiasantos/desafio-xbox-codelab-/tree/main|
+| ⚽ PSG|https://deafio-psg-codelab.vercel.app/|https://github.com/leiasantos/deafio-psg-codelab|
 
 ---
 ## 🚀 Tecnologias Utilizadas
