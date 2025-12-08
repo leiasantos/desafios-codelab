@@ -1,0 +1,67 @@
+.footer{
+  background: var(--bg-footer);
+  padding: 6.4rem 2.4rem;
+}
+
+.contact-section{
+  gap: 4.8rem;
+}
+
+.contact-header h2{
+font-size: 2.8rem;
+font-weight: 600;
+line-height: 1.2;
+}
+
+.contact-form{
+  gap: 2.4rem;
+}
+
+.contact-btn{
+  margin-top: 2rem;
+}
+
+/*📱 Tablet */
+@media only screen and (min-width : 768px){
+  .footer{
+  background: var(--bg-footer);
+  padding: 8.2rem 3.2rem;
+}
+
+.contact-form{
+  gap: 2.4rem;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  padding: 1.9rem 2.4rem;
+}
+
+/* 📝 Placeholder */
+input[type="text"]::placeholder,
+input[type="email"]::placeholder,
+textarea::placeholder{
+  font-size: 1.8rem;
+}
+}
+
+
+/*🖥️ Desktop */
+@media only screen and (min-width: 1440px) {
+  .footer{
+  padding: 8rem 0;
+}
+
+.contact-header h2{
+font-size: 3.2rem;
+text-align: center;
+}
+
+.contact-section{
+  max-width: 60rem;
+  margin: 0 auto;
+}
+
+
+}

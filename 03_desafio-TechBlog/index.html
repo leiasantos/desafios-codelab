@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TechBlog</title>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+<header class="hero">
+  <section class="hero-content flex-col">
+    <img src="assets/image/illustra.png" alt="Ilustração" class="hero-image">
+
+    <article class="hero-text flex-col">
+      <h1>Encontre os <span>melhores artigos</span> <br> de programação em um só lugar</h1>
+      <p>Explore o topo da programação em um só lugar! Seu destino único para dicas e tendências atuais.</p>
+      <a href="/" class="btn hero-btn">Buscar artigos</a>
+    </article>
+  </section>
+</header>
+
+<main class="main-content">
+  <section class="articles-section flex-col">
+    <h2>Artigos recomendados</h2>
+
+    <section class="articles-list flex-col">
+
+      <article class="article-card">
+        <div class="article-thumb">
+          <img src="assets/image/image-1.png" alt="imagem de uma tela de Notebook">
+        </div>
+        <div class="article-info flex-col">
+          <h3 class="article-title"><a href="/">O que é linguagem de programação? Conheça as principais</a>
+          </h3>
+          <p class="article-description">Uma das mais populares vertentes da tecnologia da informação, a área de...</p>
+        </div>
+      </article>
+
+      <article class="article-card">
+        <div class="article-thumb">
+          <img src="assets/image/image-2.png" alt="Imagem de codigos Python em uma tela">
+        </div>
+        <div class="article-info flex-col">
+          <h3 class="article-title"><a href="/"> Python: por que a linguagem é tão usada para Data Science e finanças?</a>
+           </h3>
+          <p class="article-description">O mundo da programação conta com algumas opções de linguagem para...</p>
+        </div>
+      </article>
+
+      <article class="article-card">
+        <div class="article-thumb">
+          <img src="assets/image/image-3.png" alt="Imagem do icon do GitHub ">
+        </div>
+        <div class="article-info flex-col">
+          <h3 class="article-title"><a href="/">GitHub tem receita de US$ 1 bilhão e 90 milhões de usuários</a>
+            </h3>
+          <p class="article-description">O popular serviço de repositório de código GitHub foi adquirido pela...</p>
+        </div>
+      </article>
+
+      <article class="article-card">
+        <div class="article-thumb">
+          <img src="assets/image/image-4.png" alt="Imagem de gits">
+        </div>
+        <div class="article-info flex-col">
+          <h3 class="article-title"><a href="/">15 comandos no GIT que os desenvolvedores precisam saber</a>
+            </h3>
+          <p class="article-description">Dominar os comandos GIT é uma habilidade que se conquista com...</p>
+        </div>
+      </article>
+
+      <article class="article-card">
+        <div class="article-thumb">
+          <img src="assets/image/image-5.png" alt="Imagem de desenhos do GIT e GitHub">
+        </div>
+        <div class="article-info flex-col">
+          <h3 class="article-title"><a href="/"> GIT e GitHub: o que são e quais as diferenças entre eles?</a>
+           </h3>
+          <p class="article-description">Git e GibHub são dois softwares de controle de versão essenciais para...</p>
+        </div>
+      </article>
+
+      <article class="article-card">
+        <div class="article-thumb">
+          <img src="assets/image/image-6.png" alt="Imagem do GitHub Copilot">
+        </div>
+        <div class="article-info flex-col">
+          <h3 class="article-title">
+            <a href="/"> GitHub Copilot ganha integração com GPT-4 e interface conversacional</a>
+           </h3>
+          <p class="article-description">O GitHub Copilot, ferramenta de desenvolvimento baseada em IA...</p>
+        </div>
+      </article>
+
+    </section>
+  </section>
+</main>
+
+<footer class="footer">
+  <section class="contact-section flex-col" aria-labelledby="contact-title">
+    
+    <header class="contact-header">
+      <h2>Entre em contato</h2>
+    </header>
+
+    <form class="contact-form flex-col" id="contact-form" name="contactForm" method="post" novalidate>
+
+      <div class="form-field">
+        <label for="name" class="sr-only"></label>
+        <input id="name" name="name" class="input-name" type="text" placeholder="Nome" required />
+      </div>
+
+      <div class="form-field">
+        <label for="email" class="sr-only"></label>
+        <input id="email" name="email" class="input-email" type="email" placeholder="Email" required />
+      </div>
+
+      <div class="form-field">
+        <label for="subject" class="sr-only"></label>
+        <textarea id="subject" name="subject" class="input-subject" placeholder="Assunto da mensagem" required></textarea>
+      </div>
+
+      <button type="submit" class="btn contact-btn">entrar em contato</button>
+    </form>
+
+  </section>
+</footer>
+
+</body>
+</html>

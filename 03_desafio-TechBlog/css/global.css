@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+
+:root{
+   /* Background colors */
+  --bg-header: #F8F8FF;
+  --bg-footer:#F8F8FF;
+  --bg-main: #FFFFFF;
+  --bd-card: #EEEEFF;
+
+  /* Text colors */
+  --text-base: #121214;
+  --text-accent: #846AFF;
+  --text-secondary:#FFFFFF;
+
+
+  /* Input colors */
+  --input-bg: #FFFFFF;
+  --input-border: #EAEAEA;
+  --input-placeholder:#7C7C8A;
+}
+
+
+html{
+  /* a cada 1rem será considerado 10px*/
+  font-size: 62.5%;
+}
+
+html,
+body {
+  height: 100vh;
+  text-rendering: optimizelegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+body{
+  font-size: 1.6rem; 
+  font-family: "Roboto", sans-serif;
+  color: var(--text-base);
+}
+
+/* UTILITIES */
+.flex-col{
+display: flex;
+flex-direction: column;
+}
+
+
+.btn{
+  background-color: var(--text-accent); 
+  color: var(--text-secondary); 
+  width: 100%;           
+  padding: 1.4rem 3.2rem;  
+  border: none;            
+  border-radius: 0.4rem;  
+  font-size: 1.6rem;          
+  font-weight: 700;     
+  cursor: pointer;        
+  transition: background 0.3s;
+  text-transform: uppercase;
+}
+
+
+/* 🎨 Campos de texto genéricos */
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 1.6rem 1.8rem;
+  border: 0.1rem solid var(--input-border);
+  border-radius: 0.4rem;
+  background-color: var(--input-bg);
+}
+
+textarea{
+  height: 15rem;
+  resize: none;
+}
+
+/* 📝 Placeholder */
+input[type="text"]::placeholder,
+input[type="email"]::placeholder,
+textarea::placeholder{
+  color: var(--input-placeholder);
+  font-size: 1.4rem;
+}

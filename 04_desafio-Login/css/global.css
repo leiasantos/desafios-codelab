@@ -1,0 +1,141 @@
+/* 🎨 Font Import */
+
+@import url("https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&display=swap");
+
+/* 🎨 Color Variables */
+
+:root {
+  /* Background colors */
+  --bg-section: #F3FFF2;
+  --bg-btn-login: #1E9E6A;
+  --bg-btn-google: #1A202C;
+
+  /* Text colors */
+  --text-base: #1A202C;
+  --text-title: #FFFFFF;
+  --text-accent: #1E9E6A;
+
+  /* Input colors */
+  --input-bg: #F7FAFC;
+  --input-border: #E8E8E8;
+  --input-placeholder: #656769;
+}
+
+/* Base & Reset */
+
+html {
+  font-size: 62.5%;
+}
+
+html,
+body {
+  height: 100vh;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: "Archivo", sans-serif;
+  color: var(--text-base);
+}
+
+
+/* 🛠️ Utility Classes */
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+
+/* 🏷️ Labels*/
+
+label {
+  font-size: 1.8rem;
+  cursor: pointer;
+}
+
+
+/* ⌨️ Input Fields */
+
+input[type="email"],
+input[type="password"] {
+  width: 100%;
+  height: 4.9rem;
+  padding: 1.6rem;
+  border: 0.1rem solid var(--input-border);
+  border-radius: 0.4rem;
+  background-color: var(--input-bg);
+  font-size: 1.6rem;
+}
+
+input::placeholder {
+  color: var(--input-placeholder);
+}
+
+
+/* 🔘 Custom Checkbox */
+
+#input__checkbox-lembre {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  width: 1.6rem;
+  height: 1.6rem;
+}
+
+/* Label space for fake circle */
+label[for="input__checkbox-lembre"] {
+  position: relative;
+  padding-left: 3rem;
+  user-select: none;
+}
+
+/* Fake circle */
+label[for="input__checkbox-lembre"]::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 1.6rem;
+  height: 1.6rem;
+  border: 0.2rem solid #333;
+  border-radius: 50%;
+  background-color: #fff;
+  box-sizing: border-box;
+}
+
+/* Checked state */
+#input__checkbox-lembre:checked + label::before {
+  background-color: var(--text-accent);
+}
+
+
+/* 🔘 Buttons */
+
+.btn {
+  width: 100%;
+  height: 4.5rem;
+  padding: 1.4rem 3.2rem;
+  border: none;
+  border-radius: 0.4rem;
+  color: var(--text-title);
+  font-size: 1.6rem;
+  font-weight: 600;
+  cursor: pointer;
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+/* Variants */
+#btn__default {
+  background-color: var(--bg-btn-login);
+}
+
+#btn__google {
+  background-color: var(--bg-btn-google);
+}

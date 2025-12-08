@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login</title>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+ <main>
+
+        <!-- ILUSTRAÇÃO -->
+        <section class="section__ilustracao">
+            <img src="assets/image/illustration.svg" />
+        </section>
+        
+        <!-- LOGIN -->
+        <section class="section__login">
+            <form class="flex-column">
+              <div class="flex-column" id="div__content">
+                <p>Bem-vindo de volta</p>
+                <legend>Faça login na sua conta</legend>
+              </div>
+            
+                <div id="div__inputs" class="flex-column">
+                    <div class="div__inputs-organization flex-column">
+                        <label for="input__email">E-mail</label>
+                        <input type="email" id="input__email" placeholder="exemplo@gmail.com" required/>
+                    </div>
+
+                    <div class="div__inputs-organization flex-column">
+                        <label for="input__senha">Senha</label>
+                        <input type="password" id="input__senha" placeholder="0123456789" required/>
+                    </div>
+                </div>
+            
+             <div id="div__acoes-form" class="div__inputs-organization flex-column">
+            <input type="checkbox" id="input__checkbox-lembre">
+            <label for="input__checkbox-lembre">Lembre de mim</label>
+  
+            <a href="#">Esqueceu sua senha?</a>
+            </div>
+
+
+                <div class="div__grupo-btn flex-column">
+                    <button id="btn__default" class="btn">Entrar na conta</button>
+
+                    <button  id="btn__google" class="btn">
+                        <img src="assets/icons/google.svg" />
+                        Ou faça login com o Google
+                    </button>
+                </div>
+
+                <div id="div__acao-conta">
+                    <span>Não tem uma conta?</span>
+                    <a href="#">Cadastre-se</a>
+                </div>
+            </form>
+        </section>
+    </main>
+</body>
+</html>

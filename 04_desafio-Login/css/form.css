@@ -1,0 +1,70 @@
+/* 📝 Form - Base */
+form {
+  width: 40rem;
+  gap: 4rem;
+}
+
+/* 📦 Content block */
+#div__content {
+  gap: 1.2rem;
+}
+
+#div__content > p {
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: 1;
+}
+
+#div__content > legend {
+  font-size: 3.2rem;
+  font-weight: 600;
+  line-height: 1;
+}
+
+/* 🔢 Inputs */
+#div__inputs {
+  gap: 1.2rem;
+}
+
+.div__inputs-organization {
+  gap: 1.2rem;
+}
+
+/* 🎯 Form actions */
+#div__acoes-form {
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.div__grupo-btn {
+  gap: 2rem;
+}
+
+/* 👤 Account actions */
+#div__acao-conta {
+  text-align: center;
+}
+
+#div__acao-conta > span,
+#div__acao-conta > a {
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+#div__acao-conta a {
+  font-size: 1.6rem;
+}
+
+/* 🎨 Links (both actions + account) */
+#div__acoes-form a,
+#div__acao-conta a {
+  color: var(--text-accent);
+}
+
+/* 📱 Mobile (375px - 425px) */
+@media only screen and (min-width: 375px) and (max-width: 425px) {
+  form {
+    width: 32.7rem;
+    gap: 4rem;
+  }
+}

@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Andada+Pro:ital,wght@0,400..840;1,400..840&family=Archivo:ital,wght@0,100..900;1,100..900&display=swap");
+
+/* Root variables 🌈 */
+:root {
+  --bg-btn: #F1A5B1;
+  --bd-btn: #F1A5B1;
+
+  --text-base: #FFFFFF;
+  --text-title: #0B0A0A;
+  --text-accent: #F1A5B1;
+
+  --link-bg: #FFFFFF33;
+  --link-bd: #FFFFFF;
+}
+
+/* Global settings */
+html {
+  font-size: 62.5%;
+}
+
+html,
+body {
+  height: 100vh;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  overflow: auto;
+}
+
+body {
+  width: 100%;
+  font-size: 1.6rem;
+  font-family: "Archivo", sans-serif;
+  color: var(--text-base);
+
+  /* Background 🌈 */
+  background: url('../assets/image/background-desktop.svg') center/cover no-repeat;
+
+  display: flex;
+  flex-direction: column;
+  gap: 8rem;
+}
+
+/* 📱 Tablet */
+@media only screen and (max-width: 768px) {
+  body {
+    /* 🌈 Background */
+    background: url('../assets/image/background-tablet.svg') center/cover no-repeat;
+    gap: 0;
+  }
+}
+
+/* 📱 Mobile */
+@media only screen and (max-width: 375px) {
+  body {
+    /* 🌈 Background */
+    background: url('../assets/image/background-mobile.svg') center/cover no-repeat;
+  }
+}
+
+/* Typography — Titles */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Andada Pro", serif;
+}
+
+/* Utilities */
+.flex-col {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Buttons */
+.btn {   
+  width: 100%;
+  padding: 1.4rem 3.2rem;
+  border-radius: 0.4rem;
+  font-size: 1.6rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background 0.3s;
+  text-transform: uppercase;
+
+  display: flex;
+  justify-content: center;
+}
+
+/* Social navigation */
+#social-nav a {
+  width: 4rem;
+  height: 4rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border: 0.1rem solid var(--link-bd);
+  border-radius: 50%;
+  background-color: var(--link-bg);
+
+  transition: background 0.3s ease;
+}
+
+#social-nav img {
+  width: 1.6rem;
+  height: 1.6rem;
+  object-fit: cover;
+}

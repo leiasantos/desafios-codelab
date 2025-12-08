@@ -1,0 +1,234 @@
+/* utility-first */
+.grid {
+    display: grid;
+}
+
+.grid-flow-col {
+    grid-auto-flow: column;
+}
+
+.grid-cols-2 {
+    grid-template-columns: 1fr 1fr;
+}
+
+.gap-16 {
+    gap: 16px;
+}
+
+.gap-32 {
+    gap: 32px;
+}
+
+.text-2xl {
+    font: var(--h1);
+}
+
+.text-xl {
+    font: var(--h2);
+}
+
+.text-lg {
+    font: var(--h3);
+}
+
+.text-sm {
+    font: var(--text-sm);
+}
+
+.flex { 
+  display: flex; 
+}
+.items-center { 
+  align-items: center; 
+}
+.justify-center { 
+  justify-content: center; 
+}
+.text-center { 
+  text-align: center; 
+}
+
+.gap-16 {
+    gap: 16px;
+}
+
+.gap-32 {
+    gap: 32px;
+}
+
+/* ==========================================
+   🎨 UTILITIES.CSS
+   Author: Jucileia
+   Description: Utility classes for spacing, 
+   layout, typography, colors, and responsiveness
+   ========================================== */
+
+/* ===============================
+   🩶 BASE SETTINGS
+   =============================== */
+html {
+  font-size: 100%; /* 16px default */
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  color: #333;
+  line-height: 1.6;
+  background-color: #fff;
+}
+
+/* ===============================
+   📏 CONTAINERS
+   =============================== */
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin-inline: auto;
+  padding-inline: 1.5rem;
+}
+
+/* ===============================
+   📐 SPACING UTILITIES
+   =============================== */
+
+/* Margin */
+.m-0 { margin: 0; }
+.mt-1 { margin-top: 0.5rem; }
+.mt-2 { margin-top: 1rem; }
+.mt-3 { margin-top: 1.5rem; }
+.mb-1 { margin-bottom: 0.5rem; }
+.mb-2 { margin-bottom: 1rem; }
+.mb-3 { margin-bottom: 1.5rem; }
+.my-2 { margin-block: 1rem; }
+.mx-auto { margin-inline: auto; }
+
+/* Padding */
+.p-0 { padding: 0; }
+.p-1 { padding: 0.5rem; }
+.p-2 { padding: 1rem; }
+.p-3 { padding: 1.5rem; }
+.py-2 { padding-block: 1rem; }
+.px-2 { padding-inline: 1rem; }
+
+/* ===============================
+   🧱 FLEX & GRID SYSTEM
+   =============================== */
+.flex { display: flex; }
+.inline-flex { display: inline-flex; }
+.flex-col { flex-direction: column; }
+.flex-row { flex-direction: row; }
+.justify-center { justify-content: center; }
+.justify-between { justify-content: space-between; }
+.items-center { align-items: center; }
+.items-start { align-items: flex-start; }
+.items-end { align-items: flex-end; }
+.gap-1 { gap: 0.5rem; }
+.gap-2 { gap: 1rem; }
+.gap-3 { gap: 1.5rem; }
+
+.grid { display: grid; }
+.grid-2 { grid-template-columns: repeat(2, 1fr); }
+.grid-3 { grid-template-columns: repeat(3, 1fr); }
+.grid-4 { grid-template-columns: repeat(4, 1fr); }
+.grid-center { place-items: center; }
+
+/* ===============================
+   🧍 ALIGNMENT & POSITIONING
+   =============================== */
+.text-center { text-align: center; }
+.text-left { text-align: left; }
+.text-right { text-align: right; }
+
+.relative { position: relative; }
+.absolute { position: absolute; }
+.fixed { position: fixed; }
+.top-0 { top: 0; }
+.bottom-0 { bottom: 0; }
+.left-0 { left: 0; }
+.right-0 { right: 0; }
+
+/* ===============================
+   🔠 TYPOGRAPHY
+   =============================== */
+.text-sm { font-size: clamp(0.875rem, 1vw, 0.95rem); }
+.text-base { font-size: clamp(1rem, 1.2vw, 1.1rem); }
+.text-lg { font-size: clamp(1.125rem, 1.5vw, 1.25rem); }
+.text-xl { font-size: clamp(1.25rem, 2vw, 1.5rem); }
+.text-2xl { font-size: clamp(1.5rem, 3vw, 2rem); }
+
+.font-light { font-weight: 300; }
+.font-regular { font-weight: 400; }
+.font-medium { font-weight: 500; }
+.font-bold { font-weight: 700; }
+.uppercase { text-transform: uppercase; }
+.capitalize { text-transform: capitalize; }
+.italic { font-style: italic; }
+.text-muted { color: #666; }
+
+/* ===============================
+   🎨 COLORS
+   =============================== */
+.text-primary { color: #e63946; }
+.text-secondary { color: #457b9d; }
+.text-dark { color: #1d1d1d; }
+.text-light { color: #f1f1f1; }
+
+.bg-primary { background-color: #e63946; }
+.bg-secondary { background-color: #457b9d; }
+.bg-light { background-color: #f9f9f9; }
+.bg-dark { background-color: #1d1d1d; }
+
+.border { border: 1px solid #ddd; }
+.border-none { border: none; }
+.rounded { border-radius: 0.5rem; }
+.rounded-full { border-radius: 9999px; }
+
+/* ===============================
+   🖼️ IMAGES
+   =============================== */
+.img-fluid {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.img-round {
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+/* ===============================
+   🖱️ INTERACTION
+   =============================== */
+.cursor-pointer { cursor: pointer; }
+.pointer-none { pointer-events: none; }
+.user-select-none { user-select: none; }
+.transition { transition: all 0.3s ease; }
+
+/* ===============================
+   📱 RESPONSIVE UTILITIES
+   =============================== */
+
+/* For tablets (≥ 768px) */
+@media (min-width: 768px) {
+  .md-flex-row { flex-direction: row; }
+  .md-grid-2 { grid-template-columns: repeat(2, 1fr); }
+  .md-text-left { text-align: left; }
+  .md-text-xl { font-size: clamp(1.5rem, 2vw, 2rem); }
+}
+
+/* For desktops (≥ 1024px) */
+@media (min-width: 1024px) {
+  .lg-grid-3 { grid-template-columns: repeat(3, 1fr); }
+  .lg-flex-row { flex-direction: row; }
+  .lg-text-2xl { font-size: clamp(2rem, 2.5vw, 2.5rem); }
+  .lg-container { max-width: 1400px; }
+}
+
+/* For large desktops (≥ 1440px) */
+@media (min-width: 1440px) {
+  .xl-grid-4 { grid-template-columns: repeat(4, 1fr); }
+  .xl-text-3xl { font-size: clamp(2.25rem, 2.8vw, 3rem); }
+}

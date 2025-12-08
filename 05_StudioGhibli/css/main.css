@@ -1,0 +1,162 @@
+/* Main content */
+#main-content{
+  width: 100%;
+  max-width: 121.6rem;
+  height: auto;
+  margin: 0 auto;
+  padding: 0;
+
+}
+
+/* Hero layout */
+.hero__section{
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Hero info block */
+.hero__info{
+  max-width: 50.2rem;
+  height: auto;
+  gap: 4.8rem;
+}
+
+/* Titles */
+.hero__titles{
+  gap: 0.8rem;
+}
+
+.hero__director{
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1.1;
+}
+
+.hero__movie-title{
+  font-size: 6.4rem;
+  font-weight: 800;
+  line-height: 1.2;
+}
+
+.hero__movie-title:hover{
+  color: var(--text-accent);
+  cursor: pointer;
+}
+
+/* Description */
+.hero__description{
+  font-size: 2.4rem;
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+/* Actions group */
+.hero__actions{
+  display: flex;
+  gap: 2rem;
+}
+
+/* Buttons */
+.hero__btn-watch{
+  background: var(--bg-btn);
+  color: var(--text-title);
+  border: none;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.8rem;
+ 
+}
+
+.hero__btn-trailer{
+  border: 0.2rem solid var(--bd-btn);
+}
+
+/* Hero image */
+.hero__image-wrapper img{
+  width: 100%;
+  display: block;
+  object-fit: cover;
+}
+
+/* 👻 Animation */
+.ghost{
+  animation: float 4s ease-in-out infinite;
+}
+
+@keyframes float {
+  0% { transform: translateY(0); }
+  50% { transform: translateY(-22px); }
+  100% { transform: translateY(0); }
+}
+
+/*📱 Tablet */
+@media only screen and (max-width : 768px){
+  /* Main content */
+#main-content{
+  max-width: 76.8rem;
+  padding: 8rem 3.2rem;
+}
+
+/* Hero layout */
+.hero__section{
+  flex-direction: column-reverse;
+}
+
+/* Hero info block */
+.hero__info{
+  max-width: 44.8rem;
+}
+
+.hero__director{
+  font-size: 1.6rem;
+}
+
+.hero__movie-title{
+  font-size: 4rem;
+}
+
+/* Description */
+.hero__description{
+  font-size: 1.6rem;
+}
+
+/* Actions group */
+.hero__actions{
+  flex-direction: column;
+  gap: 3.2rem;
+}
+
+
+/* Hero image */
+.hero__image-wrapper img{
+  max-width: 50rem;
+}
+}
+
+/*📱 Mobile */
+@media only screen and (max-width: 375px){
+#main-content{
+  max-width: 37.5rem;
+  padding: 6.4rem 0;
+}
+
+/* Hero info block */
+.hero__info{
+  max-width: 32.7rem;
+}
+
+.hero__movie-title{
+  font-size: 3.8rem;
+}
+
+.hero__description{
+  font-size: 1.4rem;
+}
+
+ .hero__image-wrapper img{
+    max-width: 26rem;
+  }
+}
+
