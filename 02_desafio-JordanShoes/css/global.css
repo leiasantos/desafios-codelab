@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&display=swap");
+
+:root{
+   /* Background colors */
+  --bg-header: #F3F7FF;
+  --bg-main: #FFFFFF;
+  --bg-card: #F3F7FF;
+
+  /* Text colors */
+  --text-base: #121214;
+  --text-secondary:#FFFFFF;
+  --text-accent: #7CA2F4;
+}
+
+
+html{
+  /* a cada 1rem será considerado 10px*/
+  font-size: 62.5%;
+}
+
+html,
+body {
+  height: 100vh;
+  text-rendering: optimizelegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+body{
+  font-family: "Archivo", sans-serif;
+  color: var(--text-base);
+  font-size: 1.6rem; /*16px*/ 
+}
+
+/* UTILITIES */
+.flex-col{
+display: flex;
+flex-direction: column;
+}
+
+
+
+

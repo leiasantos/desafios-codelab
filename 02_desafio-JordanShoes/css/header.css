@@ -1,0 +1,108 @@
+header{
+  width: 100%;
+}
+
+#free-shipping{
+  background: var(--bg-header);
+  padding: 1.2rem 0;
+}
+
+#free-shipping h2{
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.1;
+  text-align: center;
+}
+
+#main-header{
+  min-height: 35rem;
+  padding: 9.1rem 2.4rem;
+
+  background: url('../assets/image/image-michael-jordan.png') center / cover no-repeat;
+}
+
+.header-content{
+  gap: 4rem;
+  color: var(--text-secondary);
+}
+
+.header-content img{
+  max-width: 14.2rem;
+  display: block;
+  object-fit: cover;
+}
+
+.header-text{
+  gap: 1.2rem;
+}
+
+.header-text h1{
+  font-size: 2.4rem;
+  font-weight: 500;
+  line-height: 1.1;
+}
+
+.header-text h1:hover{
+  color: #EA2F14;
+  cursor: pointer;
+}
+
+.header-text p{
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 1.4;
+}
+
+
+/*📱 Tablet */
+@media only screen and (min-width : 768px){
+
+#free-shipping h2{
+  font-size: 1.6rem;
+}
+
+#main-header{
+  padding: 9.9rem 3.2rem;
+  background: url('../assets/image/image-michael-jordan.png') 10% 10%/ cover no-repeat;
+}
+
+.header-content{
+  max-width: 55.7rem;
+}
+
+.header-text p{
+  font-size: 1.8rem;
+}
+}
+
+
+/*🖥️ Desktop */
+@media only screen and (min-width: 1440px) {
+#free-shipping h2{
+  font-size: 2rem;
+}
+
+#main-header{
+  min-height: 40rem;
+  padding: 9.4rem 15rem;
+
+  background: url('../assets/image/image-michael-jordan.png') 5% 5% / cover no-repeat;
+}
+
+.header-content img{
+  max-width: 20.3rem;
+}
+
+.header-text{
+  gap: 2rem;
+}
+
+.header-text h1{
+  font-size: 3.2rem;
+}
+
+.header-text p{
+  font-size: 2.4rem;
+}
+}
+
