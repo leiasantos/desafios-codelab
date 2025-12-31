@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blog</title>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+  <header class="flex-col">
+     <h1 class="logo">Code<span>Lab</span></h1>
+
+        <form class="search-form" action="#">
+        <label for="search"></label>
+        <input 
+          type="search" 
+          class="search-input" 
+          id="search"
+          name="search"
+          placeholder="Pesquisar no blog"/>
+        </form>
+  </header>
+
+<main id="blog-main">
+  <section class="posts-section flex-col">
+    
+    <!-- Post 1 -->
+    <article class="post-card flex-col accent-color">
+      <div class="post-header">
+        <time class="post-date" datetime="2024-08-17">17 de ago, 2024</time>
+        <img class="post-icon" src="assets/image/icon-active.svg" alt="Status do post">
+      </div>
+
+      <h2 class="post-title">
+        O que é linguagem de programação? Conheça as principais
+      </h2>
+
+      <p class="post-description">
+        Uma das mais populares vertentes da tecnologia da informação, a área de programação segue tendo muita demanda de trabalho justamente pela velocidade com que dispositivos tecnológicos vêm avançando.
+      </p>
+    </article>
+
+    <!-- Post 2 -->
+    <article class="post-card flex-col">
+      <div class="post-header">
+        <time class="post-date" datetime="2024-07-12">12 de jul, 2024</time>
+        <img class="post-icon" src="assets/image/icon-heart.svg" alt="Favorito">
+      </div>
+
+      <h2 class="post-title">
+        GitHub agora permite fazer login sem precisar de senha
+      </h2>
+
+      <p class="post-description">
+        O GitHub anunciou nesta quarta-feira (12) o acesso a partir das passkeys, método de autenticação sem senhas. A novidade está disponível em uma versão beta pública e pode substituir a autenticação em dois fatores.
+      </p>
+    </article>
+
+    <!-- Post 3 -->
+    <article class="post-card flex-col">
+      <div class="post-header">
+        <time class="post-date" datetime="2024-06-21">21 de jun, 2024</time>
+        <img class="post-icon" src="assets/image/icon-heart.svg" alt="Favorito">
+      </div>
+
+      <h2 class="post-title">
+        Por que os hiperlinks são azuis em sua maioria?
+      </h2>
+
+      <p class="post-description">
+        Quem navega na internet, certamente já percebeu que ela conta com diversos recursos para tornar a nossa vida mais fácil. Entre essas opções podemos mencionar os hiperlinks – uma palavra ou termo clicável que direciona o leitor.
+      </p>
+    </article>
+
+  </section>
+</main>
+
+
+</body>
+</html>

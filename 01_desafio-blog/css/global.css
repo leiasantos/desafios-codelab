@@ -1,0 +1,87 @@
+/*IMPORTS — Google Fonts*/
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Space+Grotesk:wght@300..700&display=swap");
+
+/* ROOT VARIABLES */
+:root {
+  /* Background colors */
+  --bg-header: #17171A;
+  --bg-main: #121214;
+  --bg-card: #17171A;
+  --bd-card:#17171A;
+  --bd-card-accent:#6F00FF;
+
+  /* Text colors */
+  --text-base: #AFABB6;
+  --text-title: #FFFFFF;
+  --text-accent: #6F00FF;
+
+
+  /* Input colors */
+  --input-bg: #202024;
+  --input-border: #252529;
+  --input-placeholder: #AFABB6;
+}
+
+
+html{
+  font-size: 62.5%;
+}
+
+html,
+body {
+  height: 100vh;
+  text-rendering: optimizelegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+body{
+  background: var(--bg-main);
+  color: var(--text-base);
+  font-size: 1.6rem; 
+  font-family: "Inter", sans-serif;
+}
+
+/* TYPOGRAPHY — heading rules*/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Space Grotesk", sans-serif;
+}
+
+/* Accent rule for main title and time text */
+h1,
+time{
+  color: var(--text-accent);
+}
+
+h2,
+span{
+  color: var(--text-title);
+}
+
+/* INPUTS */
+input[type="search"] {
+  width: 100%;
+  padding: 1.6rem 2.4rem;
+  border: 0.2rem solid var(--input-border);
+  border-radius: 0.8rem;
+  background: var(--input-bg);
+  color: var(--text-title);
+
+}
+
+/* 📝 Placeholder */
+input[type="search"]::placeholder {
+  font-size: 1.4rem;
+  font-weight: 500;
+  color: var(--input-placeholder);
+}
+
+/* UTILITIES */
+.flex-col{
+display: flex;
+flex-direction: column;
+}
