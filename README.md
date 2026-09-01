@@ -9,20 +9,38 @@ Aqui você encontra projetos desenvolvidos para praticar **HTML**, **CSS**, **Ja
 ## 📌 Projetos
 
 
-| Desafio | Deploy | Repositório |
-|---------|---------|-------------|
-| 📝 Blog |https://github.com/leiasantos/desafio-blog/tree/main|https://desafio-blog-mu.vercel.app/|
-| 👟JordanShoes|https://github.com/leiasantos/desafio-JordanShoes/tree/main|https://desafio-jordan-shoes.vercel.app/|
-| 👨‍💻 TechBlog|https://github.com/leiasantos/desafio-techblog-codelab/tree/main|https://desafio-techblog-codelab.vercel.app/|
-| 📝 Login|https://github.com/leiasantos/desafio-login-codelab|https://desafio-login-codelab.vercel.app/|
-| 👻 StudioGhibli|https://github.com/leiasantos/desafio-studioghibli-codelab |https://desafio-studioghibli-codelab.vercel.app/|
-| 🍕 LaPizza | https://desafio-la-pizza-codelab.vercel.app/ | https://github.com/leiasantos/desafio-LaPizza-codelab |
-| 🐶 HelpDog | https://desafio-helpdog.vercel.app/ |https://github.com/leiasantos/desafio-helpdog |
-| 🎄 Feliz Natal | https://desafio-feliznatal-codelab.vercel.app/| https://github.com/leiasantos/desafio-Feliznatal-codelab-|
-| 🕷  Spiderman|https://desafio-spiderman-codelab.vercel.app/|https://github.com/leiasantos/desafio-spiderman-codelab|
-| 🎮 Xbox |https://desafio-xbox-codelab.vercel.app/ | https://github.com/leiasantos/desafio-xbox-codelab-/tree/main|
-| ⚽ PSG|https://deafio-psg-codelab.vercel.app/|https://github.com/leiasantos/deafio-psg-codelab|
-
+| Desafio | Deploy                                | Repositório                                |
+| ------- | ------------------------------------- | ------------------------------------------ |
+|📝 Blog  | https://blog-codelab-lake.vercel.app/ | https://github.com/leiasantos/blog-codelab |
+|👟 JordanShoes |                  |  |
+|📰 TechBlog |                  |  |
+|🪪🔒 Login |                  |  |
+|👻 Studio Ghibli|                  |  |
+|📑 Mefolio|                  |  |
+|🎃 Memoween|                  |  |
+|🍕 La Pizza |                  |  |
+|🐶 HelpDog|                  |  |
+|🎅🏻🎄🎁 Feliz Natal|                  |  |
+|🎬 Kenai|                  |  |
+|🕷 Spider-man|  |
+|📑 Portme|                  |  |
+|🎮 Xbox|                  |  |
+|📑 CodeLab|                  |  |
+|🎧 Music Legends|                  |  |
+|🏠 HomeYou|                  |  |
+|🎨 Art|                  |  |
+|🍽️ FoodJP|                  |  |
+|⚽ PSG|                  |  |
+|🎞️ Ani.me|                  |  |
+|🎥 Steam|                  |  |
+|⚽ Fifa|                  |  |
+|🎮🔒 LogMine|                  |  |
+|🏀 NBA|                  |  |
+|🎞️ CodeNFT|                  |  |
+|📔 Orkut|                  |  |
+|💵 codepay|                  |  |
+|📰 Blogames|                  |  |
+|📊📉 Dashboard|                  |  |
 ---
 ## 🚀 Tecnologias Utilizadas
 
