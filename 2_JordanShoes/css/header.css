@@ -1,0 +1,115 @@
+.header {
+  width: 100%;
+}
+
+.header__top {
+  background-color: var(--bg-header);
+  padding: 1.2rem 0;
+  text-align: center;
+}
+
+.header__top p {
+  font-size: 1.4rem;
+  font-weight: 500;
+}
+
+.hero {
+  min-height: 35rem;
+  background: url('../assets/image/hero-mobile.svg') center / cover no-repeat;
+}
+
+.hero__container {
+  min-width: 32.8rem;
+  padding: 9.1rem 2.4rem;
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+  color: var(--text-secondary);
+}
+
+.hero__logo {
+  max-width: 14.2rem;
+  height: auto;
+}
+
+.hero__content {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.hero__title {
+  font-size: 2.4rem;
+  font-weight: 500;
+}
+
+.hero__description {
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.4;
+}
+
+/*📱 Tablet */
+@media only screen and (min-width : 768px) {
+  .header__top p {
+    font-size: 1.6rem;
+  }
+
+  .hero {
+    background: url('../assets/image/hero-tablet.svg') center / cover no-repeat;
+  }
+
+  .hero__container {
+    min-width: 55.7rem;
+    padding: 9.9rem 3.2rem;
+  }
+
+  .hero__description {
+    font-size: 1.8rem;
+  }
+
+}
+
+/*🖥️ Desktop */
+@media only screen and (min-width: 1024px) {
+  .hero {
+    background: url('../assets/image/hero-desktop.svg') center / cover no-repeat;
+  }
+}
+
+/*🖥️ Desktop */
+@media only screen and (min-width: 1440px) {
+  .header__top {
+    padding: 1.9rem 0;
+  }
+
+  .hero__container {
+    padding: 9.4rem 18rem;
+  }
+
+  .header__top p {
+    font-size: 2.4rem;
+  }
+
+  .hero {
+    min-height: 40rem;
+  }
+
+  .hero__logo {
+    max-width: 20.3rem;
+  }
+
+  .hero__content {
+    gap: 2rem;
+  }
+
+  .hero__title {
+    font-size: 3.2rem;
+  }
+
+  .hero__description {
+    font-size: 2.4rem;
+  }
+
+}
+
