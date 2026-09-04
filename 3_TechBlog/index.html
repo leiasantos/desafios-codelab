@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TechBlog</title>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+  <!-- Cabeçalho -->
+  <header class="hero">
+    <div class="header-container">
+
+      <section class="hero-content flex-col">
+        <h1>
+          Encontre os <span>melhores artigos</span><br>
+          de programação em um só lugar
+        </h1>
+
+        <p>
+          Explore o topo da programação em um só lugar!
+          Seu destino único para dicas e tendências atuais.
+        </p>
+
+        <a href="#artigos" class="btn btn-artigos">
+          Buscar artigos
+        </a>
+      </section>
+
+      <figure class="hero-image">
+        <img
+          src="assets/image/illustra.png"
+          alt="Pessoa utilizando tecnologia e estudando programação"
+        >
+      </figure>
+
+    </div>
+  </header>
+
+   <!-- Conteúdo principal -->
+  <main>
+
+    <!-- Artigos -->
+    <section id="artigos" class="articles flex-col">
+        <header class="section-header">
+          <h2>Artigos recomendados</h2>
+        </header>
+
+        <div class="articles-grid">
+
+          <!-- Card -->
+          <article class="article-card flex-col">
+            <figure>
+              <img
+                src="assets/image/image-1.png"
+                alt="Código fonte em uma tela"
+              >
+            </figure>
+
+            <div class="article-content flex-col">
+              <h3>
+                <a href="#">
+            O que é linguagem de programação? Conheça as principais...
+                </a>
+              </h3>
+
+              <p>
+               Uma das mais populares vertentes da tecnologia da informação, a área de...
+              </p>
+            </div>
+          </article>
+
+          <!-- Card -->
+          <article class="article-card flex-col">
+            <figure>
+              <img
+                src="assets/image/image-2.png"
+                alt="Código Python em execução"
+              >
+            </figure>
+
+            <div class="article-content flex-col">
+              <h3>
+                <a href="#">
+                  Python: por que a linguagem é tão usada para Data Science e finanças?...
+                </a>
+              </h3>
+
+              <p>
+               O mundo da programação conta com algumas opções de linguagem para...
+              </p>
+            </div>
+          </article>
+
+          <!-- Card -->
+          <article class="article-card flex-col">
+            <figure>
+              <img
+                src="assets/image/image-3.png"
+                alt="Logo do GitHub"
+              >
+            </figure>
+
+            <div class="article-content flex-col">
+              <h3>
+                <a href="#">
+                  GitHub tem receita de US$ 1 bilhão e 90 milhões de usuários...
+                </a>
+              </h3>
+
+              <p>
+                O popular serviço de repositório de código GitHub foi adquirido pela...
+              </p>
+            </div>
+          </article>
+
+          <!-- Card -->
+          <article class="article-card flex-col">
+            <figure>
+              <img
+                src="assets/image/image-4.png"
+                alt="Ilustração sobre Git"
+              >
+            </figure>
+
+            <div class="article-content flex-col">
+              <h3>
+                <a href="#">
+                  15 comandos no GIT que os desenvolvedores precisam saber...
+                </a>
+              </h3>
+
+              <p>
+                Dominar os comandos GIT é uma habilidade que se conquista com...
+              </p>
+            </div>
+          </article>
+
+          <!-- Card -->
+          <article class="article-card flex-col">
+            <figure>
+              <img
+                src="assets/image/image-5.png"
+                alt="Stickers relacionados a programação"
+              >
+            </figure>
+
+            <div class="article-content flex-col">
+              <h3>
+                <a href="#">
+                  GIT e GitHub: o que são e quais as diferenças entre eles?...
+                </a>
+              </h3>
+
+              <p>
+                Git e GibHub são dois softwares de controle de versão essenciais para...
+              </p>
+            </div>
+          </article>
+
+          <!-- Card -->
+          <article class="article-card flex-col">
+            <figure>
+              <img
+                src="assets/image/image-6.png"
+                alt="GitHub Copilot"
+              >
+            </figure>
+
+            <div class="article-content flex-col">
+              <h3>
+                <a href="#">
+                  GitHub Copilot ganha integração com GPT-4 e interface conversacional...
+                </a>
+              </h3>
+
+              <p>
+                O GitHub Copilot, ferramenta de desenvolvimento baseada em IA...
+              </p>
+            </div>
+          </article>
+
+        </div>
+    </section>
+  </main>
+  <footer>
+        <!-- Contato -->
+    <section class="contact">
+        <header class="footer-header">
+          <h2>Entre em contato</h2>
+        </header>
+
+        <form action="#" method="post" class="contact-form">
+
+  <div class="form-group">
+
+
+    <input
+      type="text"
+      id="name"
+      name="name"
+      placeholder="Nome"
+      required
+      minlength="3"
+      maxlength="50"
+      autocomplete="name"
+      aria-describedby="nameError"
+    >
+
+    <small id="nameError" class="form-error"></small>
+
+  </div>
+
+
+  <div class="form-group">
+
+ 
+
+    <input
+      type="email"
+      id="email"
+      name="email"
+      placeholder="E-mail"
+      required
+      autocomplete="email"
+      aria-describedby="emailError"
+    >
+
+    <small id="emailError" class="form-error"></small>
+
+  </div>
+
+
+  <div class="form-group">
+
+
+
+    <textarea
+      id="message"
+      name="message"
+      placeholder="Assunto da mensagem"
+      rows="6"
+      minlength="10"
+      maxlength="500"
+      required
+      aria-describedby="messageError"
+    ></textarea>
+
+    <small id="messageError" class="form-error"></small>
+
+  </div>
+
+
+  <button type="submit" class="btn">
+    Entrar em contato
+  </button>
+
+</form>
+    </section>
+  </footer>
+  <script src="js/script.js"></script>
+</body>
+</html>

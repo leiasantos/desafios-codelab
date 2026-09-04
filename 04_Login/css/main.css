@@ -1,0 +1,66 @@
+main {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  width: 100%;
+  min-height: 100vh;
+}
+
+
+main section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+/* 🎨 Illustration Section */
+.section__ilustracao {
+  background-color: var(--bg-section); 
+}
+
+/* 🔐 Login Section */
+.section__login {
+  flex-direction: column;
+}
+
+/* 🖥️ Small Desktop */
+@media only screen and (max-width: 1024px) {
+  .section__ilustracao img{
+    width: 60%;
+    height: auto;
+ }
+}
+
+
+/* 📱 Tablet */
+@media only screen and (max-width: 768px) {
+  main {
+    grid-template-columns: 1fr;
+  }
+  .section__ilustracao {
+     display: none;
+  }
+
+}
+
+
+
+
+
+
+
+/*📱 Tablet */
+@media only screen and (min-width : 768px){
+}
+
+/*🖥️ Desktop */
+@media only screen and (min-width: 1024px) {
+}
+
+/*🖥️ Desktop */
+@media only screen and (min-width: 1440px) {
+}
+
+/*🖥️ Desktop */
+@media only screen and (min-width: 1920px){
+}
