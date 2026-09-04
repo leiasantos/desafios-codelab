@@ -13,8 +13,8 @@ Aqui você encontra projetos desenvolvidos para praticar **HTML**, **CSS**, **Ja
 | ------- | ------------------------------------- | ------------------------------------------ |
 |📝 Blog  | https://blog-codelab-lake.vercel.app/ | https://github.com/leiasantos/blog-codelab |
 |👟 JordanShoes |https://jordan-shoes-codelab-mu.vercel.app/                  |  https://github.com/leiasantos/jordan-shoes-codelab|
-|📰 TechBlog |                  |  |
-|🪪🔒 Login |                  |  |
+|📰 TechBlog |               | |
+|🪪🔒 Login |https://login-codelab-two.vercel.app/                     |  https://github.com/leiasantos/login-codelab |
 |👻 Studio Ghibli|                  |  |
 |📑 Mefolio|                  |  |
 |🎃 Memoween|                  |  |
